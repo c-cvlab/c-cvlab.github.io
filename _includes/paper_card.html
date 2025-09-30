@@ -1,0 +1,42 @@
+{% assign links = "" | split: "" %}
+{% if include.pdf %}{% assign links = links | push: '<a href="' | append: include.pdf | append: '" target="_blank" rel="noopener">PDF</a>' %}{% endif %}
+{% if include.arxiv %}{% assign links = links | push: '<a href="https://arxiv.org/abs/' | append: include.arxiv | append: '" target="_blank" rel="noopener">arXiv</a>' %}{% endif %}
+{% if include.doi %}{% assign links = links | push: '<a href="https://doi.org/' | append: include.doi | append: '" target="_blank" rel="noopener">DOI</a>' %}{% endif %}
+{% if include.code %}{% assign links = links | push: '<a href="' | append: include.code | append: '" target="_blank" rel="noopener">code</a>' %}{% endif %}
+
+<article class="paper-card">
+  <a class="thumb" {% if include.url %}href="{{ include.url }}" target="_blank" rel="noopener"{% endif %} aria-label="{{ include.title | escape }}">
+    {% if include.thumb %}
+      <img
+        src="{{ include.thumb }}"
+        alt="{{ include.thumb_alt | default: include.title | escape }}"
+        loading="lazy" decoding="async"
+        width="480" height="270">
+    {% else %}
+      <div class="thumb-fallback" aria-hidden="true">{{ include.year }}</div>
+    {% endif %}
+  </a>
+  <div class="meta">
+    <h3 class="title">
+      {% if include.url %}
+        <a href="{{ include.url }}" target="_blank" rel="noopener">{{ include.title }}</a>
+      {% else %}
+        {{ include.title }}
+      {% endif %}
+    </h3>
+    <div class="authors">{{ include.authors | join: ", " }}</div>
+    <div class="venue">
+      {% if include.venue %}<em>{{ include.venue }}</em>{% endif %}{% if include.year %}{% if include.venue %}, {% endif %}{{ include.year }}{% endif %}
+    </div>
+    {% if links.size > 0 %}
+      <div class="quicklinks">{{ links | join: ' · ' }}</div>
+    {% endif %}
+    {% if include.topics and include.topics.size > 0 %}
+      <div class="chips">
+        {% for t in include.topics %}
+          <span class="chip">{{ t }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</article>

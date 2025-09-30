@@ -1,0 +1,181 @@
+# ---------- HIEU LE ----------
+- id: le2025-token-merge
+  title: "Importance-based Token Merging for Efficient Image and Video Generation"
+  authors: ["Haoyu Wu", "Jingyi Xu", "Hieu Le*", "Dimitris Samaras*"]
+  venue: ICCV (Oral)
+  year: 2025
+  url: https://arxiv.org/abs/    # (fill arXiv ID from the page)
+  arxiv:
+  code:
+  topics: ["Generative Models", "Diffusion", "Efficiency"]
+  keywords: ["token merging", "image generation", "video generation"]
+  thumb: /assets/papers/le2025-token-merge.jpg
+  thumb_alt: "Token merging overview"
+
+- id: le2025-counting-stacked
+  title: "Counting Stacked Objects"
+  authors: ["Corentin Dumery", "Noa Ette", "Aoxiang Fan", "Ren Li", "Jingyi Xu", "Hieu Le", "Pascal Fua"]
+  venue: ICCV (Oral)
+  year: 2025
+  url: https://arxiv.org/abs/
+  arxiv:
+  topics: ["3D Vision", "Counting", "Multi-view"]
+  keywords: ["volume reconstruction", "occlusion", "stacked objects"]
+  thumb: /assets/papers/le2025-counting-stacked.jpg
+  thumb_alt: "Stacked-object counting teaser"
+
+- id: le2025-udf-meshing
+  title: "High Resolution UDF Meshing via Iterative Networks"
+  authors: ["Federico Stella", "Nicolas Talabot", "Hieu Le", "Pascal Fua"]
+  venue: NeurIPS
+  year: 2025
+  url: https://arxiv.org/abs/
+  arxiv:
+  topics: ["3D/Implicit Surfaces", "Geometry"]
+  keywords: ["UDF", "meshing", "iterative networks"]
+  thumb: /assets/papers/le2025-udf-meshing.jpg
+  thumb_alt: "UDF meshing pipeline"
+
+- id: le2025-qt-dog
+  title: "QT-DoG: Quantization-Aware Training for Domain Generalization"
+  authors: ["Saqib Javed", "Hieu Le", "Mathieu Salzmann"]
+  venue: ICML
+  year: 2025
+  url: https://arxiv.org/abs/
+  arxiv:
+  code: https://github.com/           # (from project page)
+  topics: ["Domain Generalization", "Optimization"]
+  keywords: ["quantization", "ensembles", "robustness"]
+  thumb: /assets/papers/le2025-qt-dog.jpg
+  thumb_alt: "QT-DoG concept"
+
+- id: le2025-shadow-edges
+  title: "Shadow Removal Refinement via Material-Consistent Shadow Edges"
+  authors: ["Shilin Hu", "Hieu Le", "ShahRukh Athar", "Sagnik Das", "Dimitris Samaras"]
+  venue: WACV
+  year: 2025
+  url: https://arxiv.org/abs/
+  arxiv:
+  code: https://github.com/           # (linked on page)
+  topics: ["Shadow Removal", "Low-Level Vision"]
+  keywords: ["material consistency", "benchmark"]
+  thumb: /assets/papers/le2025-shadow-edges.jpg
+  thumb_alt: "Shadow edges refinement"
+
+- id: le2024-latent-density-score
+  title: "Assessing Sample Quality via the Latent Space of Generative Models"
+  authors: ["Jingyi Xu", "Hieu Le", "Dimitris Samaras"]
+  venue: ECCV
+  year: 2024
+  url: https://arxiv.org/abs/
+  arxiv:
+  code: https://github.com/
+  topics: ["Generative Models", "Evaluation"]
+  keywords: ["latent density", "sample quality"]
+  thumb: /assets/papers/le2024-latent-density-score.jpg
+  thumb_alt: "Latent density idea"
+
+- id: le2024-nsl-udf
+  title: "Neural Surface Localization for Unsigned Distance Fields"
+  authors: ["Federico Stella", "Nicolas Talabot", "Hieu Le", "Pascal Fua"]
+  venue: ECCV
+  year: 2024
+  url: https://arxiv.org/abs/
+  arxiv:
+  code:
+  topics: ["3D/Implicit Surfaces", "Geometry"]
+  keywords: ["UDF", "surface localization"]
+  thumb: /assets/papers/le2024-nsl-udf.jpg
+  thumb_alt: "UDF localization teaser"
+
+# ---------- SRIJAN DAS ----------
+- id: das2025-llavidal
+  title: "LLAVIDAL: A Large LAnguage VIsion Model for Daily Activities of Living"
+  authors: ["Dominick Reilly", "Rajatsubhra Chakraborty", "Arkaprava Sinha", "Manish Kumar Govind", "Pu Wang", "Francois Bremond", "Le Xue", "Srijan Das"]
+  venue: CVPR
+  year: 2025
+  url: https://arxiv.org/abs/
+  arxiv:
+  code: https://github.com/           # (linked on page)
+  topics: ["Vision-Language", "Video Understanding", "ADL"]
+  keywords: ["LVLM", "poses", "object trajectories"]
+  thumb: /assets/papers/das2025-llavidal.jpg
+  thumb_alt: "LLAVIDAL overview"
+
+- id: das2025-gecko
+  title: "GECKO: Gigapixel Vision-Concept Contrastive Pretraining in Histopathology"
+  authors: ["Saarthak Kapse", "Pushpak Pati", "Srikar Yellapragada", "Srijan Das", "Rajarsi R. Gupta", "Joel Saltz", "Dimitris Samaras", "Prateek Prasanna"]
+  venue: ICCV
+  year: 2025
+  url: https://arxiv.org/abs/
+  arxiv:
+  code: https://github.com/
+  topics: ["Medical/Digital Pathology", "Representation Learning"]
+  keywords: ["contrastive pretraining", "WSI", "interpretability"]
+  thumb: /assets/papers/das2025-gecko.jpg
+  thumb_alt: "GECKO histopathology teaser"
+
+- id: das2025-maskhand
+  title: "MaskHand: Generative Masked Modeling for Robust Hand Mesh Reconstruction in the Wild"
+  authors: ["Muhammad Usama Saleem", "Ekkasit Pinyoanuntapong", "Mayur J. Patel", "Hongfei Xue", "Ahmed Helmy", "Srijan Das", "Pu Wang"]
+  venue: ICCV
+  year: 2025
+  url: https://arxiv.org/abs/
+  arxiv:
+  code: https://m-usamasaleem.github.io/   # project page
+  topics: ["3D Humans", "Generative Models"]
+  keywords: ["hand mesh", "masked modeling"]
+  thumb: /assets/papers/das2025-maskhand.jpg
+  thumb_alt: "MaskHand reconstruction"
+
+- id: das2024-frequency-guidance
+  title: "Frequency Guidance Matters: Skeletal Action Recognition by Frequency-Aware Mixed Transformer"
+  authors: ["Wenhan Wu", "Ce Zheng", "Zihao Yang", "Chen Chen", "Srijan Das", "Aidong Lu"]
+  venue: ACM MM
+  year: 2024
+  url: https://arxiv.org/abs/
+  arxiv:
+  code: https://github.com/
+  topics: ["Action Recognition", "Transformers"]
+  keywords: ["skeleton", "frequency-aware"]
+  thumb: /assets/papers/das2024-frequency-guidance.jpg
+  thumb_alt: "Frequency-aware transformer"
+
+- id: das2024-pi-vit
+  title: "Just Add π! Pose Induced Video Transformers for Understanding Activities of Daily Living"
+  authors: ["Dominick Reilly", "Srijan Das"]
+  venue: CVPR
+  year: 2024
+  url: https://arxiv.org/abs/
+  arxiv:
+  code: https://github.com/
+  topics: ["Video Understanding", "Vision-Language", "ADL"]
+  keywords: ["pose", "video transformers"]
+  thumb: /assets/papers/das2024-pi-vit.jpg
+  thumb_alt: "Pose-induced ViT"
+
+- id: das2024-mavrec
+  title: "Multiview Aerial Visual Recognition (MAVREC): Can Multi-view Improve Aerial Visual Perception?"
+  authors: ["Aritra Dutta", "Srijan Das", "Jacob Nielsen", "Rajatsubhra Chakraborty", "Mubarak Shah"]
+  venue: CVPR
+  year: 2024
+  url: https://arxiv.org/abs/
+  arxiv:
+  code: https://mavrec.github.io/
+  topics: ["Aerial Perception", "Datasets"]
+  keywords: ["multiview", "aerial", "dataset"]
+  thumb: /assets/papers/das2024-mavrec.jpg
+  thumb_alt: "MAVREC multiview dataset"
+
+- id: das2024-si-mil
+  title: "SI-MIL: Taming Deep MIL for Self-Interpretability in Gigapixel Histopathology"
+  authors: ["Saarthak Kapse*", "Pushpak Pati*", "Srijan Das", "Jingwei Zhang", "Chao Chen", "Maria Vakalopoulou", "Joel Saltz", "Dimitris Samaras", "Rajarsi Gupta", "Prateek Prasanna"]
+  venue: CVPR
+  year: 2024
+  url: https://arxiv.org/abs/
+  arxiv:
+  code: https://github.com/
+  topics: ["Medical/Digital Pathology", "Interpretability"]
+  keywords: ["MIL", "WSI", "explanations"]
+  thumb: /assets/papers/das2024-si-mil.jpg
+  thumb_alt: "SI-MIL interpretability"
